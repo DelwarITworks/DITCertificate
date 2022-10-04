@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pinyon Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/pinyonscript/v17/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rochester';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/rochester/v18/6ae-4KCqVa4Zy6Fif-UC2FHS.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital@1&family=PT+Serif:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-info{
+  background-color: rgb(97, 97, 250);
+  border-radius:12px;
+  box-shadow: 0px 0px 2px 4px #ccc;
+  padding:24px;
+  color:#fff;
+  position: absolute;
+  top:30%;
+  right: 10%;
+  cursor:pointer;
+}
+
+.pm-certificate-body>img{
+  content: ' ';
+  position: absolute;
+  width:100%;
+  height:75vh;
+  bottom:-15px;
+  left:0;
+  right: 0;
+  background-position: center;  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity:0.2 ;
+  z-index: 1;
+
+}
+
+#content2>img{
+  width:100%;
+  height:86vh;
+}
+
+.cursive {
+  font-family: "Pinyon Script", cursive;
+}
+.sans {
+  font-family: "Open Sans", sans-serif;
+}
+.bold {
+  font-size:17px;
+}
+.block {
+  display: block;
+}
+.underline {
+  border-bottom: 1px solid #777;
+  padding: 5px;
+  margin-bottom: 6px;
+}
+.margin-0 {
+  margin: 0;
+}
+.padding-0 {
+  padding: 0;
+}
+.pm-empty-space {
+  height: 40px;
+  width: 100%;
+}
+
+.pm-certificate-container {
+  position: relative;
+  width: 800px;
+  height:590px;
+
+  padding: 30px;
+  color:#000;
+  font-family: "Open Sans", sans-serif;
+  left: 16%;
+ 
+  /*background: -webkit-repeating-linear-gradient(
+    45deg,
+    #618597,
+    #618597 1px,
+    #b2cad6 1px,
+    #b2cad6 2px
+  );
+  background: repeating-linear-gradient(
+    90deg,
+    #618597,
+    #618597 1px,
+    #b2cad6 1px,
+    #b2cad6 2px
+  );*/
+}
+.pm-certificate-container .outer-border {
+  width: 794px;
+  height: 594px;
+  position: absolute;
+  left: 50%;
+  margin-left: -397px;
+  top: 50%;
+  margin-top: -297px;
+  border: 2px solid #fff;
+}
+.pm-certificate-container .inner-border {
+  width:690px;
+  height: 530px;
+  position: absolute;
+  left: 50%;
+  margin-left: -365px;
+  top: 50%;
+  margin-top: -265px;
+  border: 2px solid #fff;
+}
+.pm-certificate-container .pm-certificate-border {
+  position: relative;
+  width: 720px;
+  height: 520px;
+  padding: 0;
+  background-image: none;
+  left: 50%;
+  margin-left: -360px;
+  bottom: 110%;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-block {
+width: 600px;
+height: 200px;
+position: relative;
+background-size: cover;
+left: 3%;
+/* margin-left: -358px; */
+top:130px;
+margin-top: 0;
+text-align: justify;
+}
+
+.logo-img-left img{
+  position: absolute;
+  left:10%;
+  top:17%;
+  width: 130px;
+  height: 55px;
+  opacity: 2;
+  z-index: 9999;
+
+}
+
+.img-barcode{
+  position: absolute;
+  left:40%;
+ 
+  width: 180px;
+  height: 195px;
+  opacity: 2;
+  z-index: 9999;
+
+}
+
+.serial{
+  font-weight: 900;
+}
+.reg{
+  
+  float:right;
+  font-weight:900;
+}
+.logo-img-right img{
+  position: absolute;
+  right:5%;
+  top:-2%;
+  width: 210px;
+  height: 230px;
+  opacity: 2;
+  z-index: 9999;
+}
+
+.ditlogo{
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.1;
+  z-index: 0;
+  height: 110%;
+
+}
+
+.pm-certificate-container .pm-certificate-border .pm-certificate-header {
+  margin-bottom: 10px;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-title {
+  position: relative;
+  top:140px;
+  left: 175px;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-title h2 {
+  font-size:42px !important;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-body {
+  padding: 20px;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-body .pm-name-text {
+  font-family: 'PT Serif', serif;
+  position: absolute;
+  top:20%;
+  line-height: 25px;
+  letter-spacing:1px;
+  word-spacing:0px;
+  width: 620px;
+  z-index: 2;
+}
+.pm-certificate-container .pm-certificate-border .pm-earned {
+  margin: 15px 0 20px;
+}
+.pm-certificate-container .pm-certificate-border .pm-earned .pm-earned-text {
+  font-size: 20px;
+}
+.pm-certificate-container .pm-certificate-border .pm-earned .pm-credits-text {
+  font-size: 15px;
+}
+.pm-certificate-container .pm-certificate-border .pm-course-title .pm-earned-text {
+  font-size: 20px;
+}
+.pm-certificate-container .pm-certificate-border .pm-course-title .pm-credits-text {
+  font-size: 15px;
+}
+.pm-certificate-container .pm-certificate-border .pm-certified {
+  font-size: 12px;
+  position: absolute;
+  bottom: 11%;
+  left:2%;
+
+}
+.pm-certificate-container .pm-certificate-border .pm-certified .underline {
+  margin-bottom: 5px;
+}
+.pm-certificate-container .pm-certificate-border .pm-certificate-footer {
+  width: 650px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  margin-left: -325px;
+  bottom: -140px;
+}
+
+/*********************/
+
+
+
+.right-pm-certified{
+  position: absolute;
+  right:3%;
+  bottom: 10%;
+  font-size: 14px;
+}
